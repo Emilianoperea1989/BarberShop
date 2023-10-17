@@ -1,0 +1,64 @@
+.About{
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.About > img{
+    height: 500px;
+}
+
+.About > img.animate-image {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fadeInLeft 4s forwards;
+  }
+  
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+.aboutTextoConainer{
+    width: 500px;
+    margin-left: 50px;
+}
+.animate-text {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: fadeInRight 4s forwards;
+  }
+  
+  @keyframes fadeInRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+.aboutTitle{
+    font-size: 17px;
+   font-family: "Poppins", Arial, sans-serif;
+   color: #bf925b;
+   font-weight: 600;
+}
+
+.titleInAboutSection{
+    font-size: 60px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+}
+
+.parrafoAbout{
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: rgb(63, 60, 60);
+}

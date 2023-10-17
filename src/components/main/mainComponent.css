@@ -1,0 +1,55 @@
+.containerMain{
+   background-image: url(https://res.cloudinary.com/duqilis2i/image/upload/v1697466255/barbershop/homeLanding_kgwk88.jpg);
+   width: 100%;
+   height: 100vh;
+}
+
+.containerWelcome{
+   padding: 20px;
+   background-color: rgba(0, 0, 0, 0.61);
+   color: white;
+   position:absolute;
+   right: 20%;
+   top: 30%;
+   width: 570px;
+   height: 400px;
+   border-radius: 4px;
+}
+
+.welcome{
+   font-size: 17px;
+   font-family: "Poppins", Arial, sans-serif;
+   color: #bf925b;
+   font-weight: 600;
+}
+.slogan{
+   font-size: 64px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+}
+.spanTransp{
+   color:transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+.parrafoWelcome{
+   font-size: 16px;
+   font-family: "Poppins", Arial, sans-serif;
+   color: rgba(255, 255, 255, 0.9);
+}
+.btnLernMoreAboutUs{
+   margin-top: 20px;
+   width: 240px;
+   text-align: center;
+   font-weight: 600;
+    font-size: 16px;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    color: #bf925b;
+    letter-spacing: 2px;
+    border: 2px solid #bf925b;
+    padding: 10px 15px;
+    cursor: pointer;
+}

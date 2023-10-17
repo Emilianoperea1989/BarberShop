@@ -1,0 +1,54 @@
+
+  .contenedorGaleriaTitulo {
+    margin-top: 30px;
+    height: 70px;
+    text-align: center;
+    animation: aparecer 5s ease; /* Aplica la animación */
+  }
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+.contenedorGaleriaTitulo>p {
+    font-size: 22px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #bf925b;
+    font-weight: 600;
+}
+
+.galeriaTitulo {
+    font-size: 60px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #bf925b9f;
+    justify-content: center;
+    padding: 50px;
+}
+
+.galeria > img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px 10px 20px 130px;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out, transform 1.9s ease-in-out;
+    transform: translateX(-100%); /* Inicialmente fuera del viewport hacia la derecha */
+}
+  
+.galeria > img.mostrar {
+    opacity: 1;
+    transform: translateX(0%); /* Muestra la imagen desde el costado */
+}
