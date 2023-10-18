@@ -1,3 +1,7 @@
+.contenedorGalleria{
+  width:100%;
+}
+
 
   .contenedorGaleriaTitulo {
     margin-top: 30px;
@@ -30,6 +34,8 @@
 }
 
 .galeria {
+  width:100%;
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -48,6 +54,26 @@
     transform: translateX(-100%); /* Inicialmente fuera del viewport hacia la derecha */
 }
   
+@media screen and (max-width: 1366px) {
+  .galeria > img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .galeria > img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galeria > img {
+    width: 200px;
+    height: 200px;
+  }
+}
 .galeria > img.mostrar {
     opacity: 1;
     transform: translateX(0%); /* Muestra la imagen desde el costado */

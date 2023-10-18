@@ -31,28 +31,24 @@ const Pricing = () => {
             <img className='imgPrecio' src="https://res.cloudinary.com/duqilis2i/image/upload/v1697457156/barbershop/gulom-nazarov-DrG4V5skbMY-unsplash_jprpp7.jpg" alt="" />
             <ul className='listaTrabajos'>
               <li >
-                <span></span>
-                <span>Hair Cut</span>
+                <span><i className="fa fa-check itemPrice"></i>Hair Cut</span>
               </li>
               <li>
-                <span></span>
-                <span>Beard Trim</span>
+                <span> <i className="fa fa-check itemPrice"></i>Beard Trim</span>
               </li>
               <li>
-                <span></span>
-                <span>Hair Style</span>
+
+                <span> <i className="fa fa-check itemPrice"></i>Hair Style</span>
               </li>
               <li>
-                <span></span>
-                <span>Clipper Cut</span>
+                <span> <i className="fa fa-check itemPrice"></i>Clipper Cut</span>
               </li>
               <li>
-                <span></span>
-                <span>Face Shave</span>
+                <span><i className="fa fa-check itemPrice"></i>Face Shave</span>
               </li>
               <li>
                 <div className='contenedorbtnReserva'>
-                <div className='montoLista'>
+                  <div className='montoLista'>
                     <span>$</span>
                     <p>99</p>
                   </div>
@@ -61,68 +57,61 @@ const Pricing = () => {
               </li>
             </ul>
           </div>
-          <div>  <img className='imgPrecio' src="https://res.cloudinary.com/duqilis2i/image/upload/v1697457156/barbershop/allef-vinicius-IvQeAVeJULw-unsplash_1_s6rpee.jpg" alt="" />
+          <div>
+            <img className='imgPrecio' src="https://res.cloudinary.com/duqilis2i/image/upload/v1697457156/barbershop/allef-vinicius-IvQeAVeJULw-unsplash_1_s6rpee.jpg" alt="" />
             <ul className='listaTrabajos'>
-              <li>
-                <span></span>
-                <span>Hair Cut</span>
+              <li >
+                <span><i className="fa fa-check itemPrice"></i>Hair Cut</span>
               </li>
               <li>
-                <span></span>
-                <span>Beard Trim</span>
+                <span> <i className="fa fa-check itemPrice"></i>Beard Trim</span>
               </li>
               <li>
-                <span></span>
-                <span>Hair Style</span>
+
+                <span> <i className="fa fa-check itemPrice"></i>Hair Style</span>
               </li>
               <li>
-                <span></span>
-                <span>Clipper Cut</span>
+                <span> <i className="fa fa-check itemPrice"></i>Clipper Cut</span>
               </li>
               <li>
-                <span></span>
-                <span>Face Shave</span>
+                <span><i className="fa fa-check itemPrice"></i>Face Shave</span>
               </li>
               <li>
                 <div className='contenedorbtnReserva'>
-                <div className='montoLista'>
+                  <div className='montoLista'>
                     <span>$</span>
-                    <p>139</p>
+                    <p>99</p>
                   </div>
                   <button className='botonReserva'>GET STARTED</button>
                 </div>
               </li>
             </ul>
           </div>
-          <div>  <img className='imgPrecio' src="https://res.cloudinary.com/duqilis2i/image/upload/v1697457155/barbershop/hai-phung-m4Pd_e-4zKs-unsplash_j7mm9t.jpg" alt="" />
+          <div>
+            <img className='imgPrecio' src="https://res.cloudinary.com/duqilis2i/image/upload/v1697457155/barbershop/hai-phung-m4Pd_e-4zKs-unsplash_j7mm9t.jpg" alt="" />
             <ul className='listaTrabajos'>
-              <li>
-                <span></span>
-                <span>Hair Cut</span>
+              <li >
+                <span><i className="fa fa-check itemPrice"></i>Hair Cut</span>
               </li>
               <li>
-                <span></span>
-                <span>Beard Trim</span>
+                <span> <i className="fa fa-check itemPrice"></i>Beard Trim</span>
               </li>
               <li>
-                <span></span>
-                <span>Hair Style</span>
+
+                <span> <i className="fa fa-check itemPrice"></i>Hair Style</span>
               </li>
               <li>
-                <span></span>
-                <span>Clipper Cut</span>
+                <span> <i className="fa fa-check itemPrice"></i>Clipper Cut</span>
               </li>
               <li>
-                <span></span>
-                <span>Face Shave</span>
+                <span><i className="fa fa-check itemPrice"></i>Face Shave</span>
               </li>
               <li>
                 <div className='contenedorbtnReserva'>
                   <div className='montoLista'>
                     <span>$</span>
-                    <p>199</p>
+                    <p>99</p>
                   </div>
-
                   <button className='botonReserva'>GET STARTED</button>
                 </div>
               </li>

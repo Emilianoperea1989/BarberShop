@@ -1,0 +1,51 @@
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    background-color:#090601;
+    height: 300px;
+
+}
+.contenedorFooter >div{
+    margin: 10px 20px;
+    width: 240px;
+    color: white;
+    padding-top: 30px;    
+}
+
+.icon-text i {
+    margin-right: 8px; 
+    color: #bf925b;
+  }
+.tituloFooter{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    margin-bottom: 14px;
+}
+.contenedorInfoFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+}
+.contenedorInfoFooter>li{
+    font-size: 17px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 300;
+   
+}
+.contenedorInfoFooter>li span{
+    cursor: pointer;
+}
+
+.pieFooter{
+    background-color: black;
+    height: 100px;
+}
+.pieFooter>p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

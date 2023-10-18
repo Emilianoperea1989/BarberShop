@@ -29,7 +29,8 @@ const Gallery = () => {
 
     return (
         <>
-            <div className='contenedorGaleriaTitulo'>
+          <div className='contenedorGalleria'>
+          <div className='contenedorGaleriaTitulo'>
                 <p>
                     GALLERY
                 </p>
@@ -48,6 +49,8 @@ const Gallery = () => {
                 <img  className={isVisible ? 'mostrar' : ''}src="https://res.cloudinary.com/duqilis2i/image/upload/v1697122076/barbershop/dwi-rina-1mCES8oURBk-unsplash_homeef.jpg" alt="" />
             </div>
 
+          </div>
+            
 
         </>
     )
