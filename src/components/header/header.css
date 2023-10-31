@@ -1,0 +1,14 @@
+.my-link {
+    letter-spacing: 1px;
+    color: #ffffff; /* Cambiar a blanco cuando hace hover o scroll */
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .scrolled .my-link {
+    color: #bf925b; /* Cambiar a dorado cuando hace scroll */
+  }
+  
+  .my-link:hover {
+    color: #bf925b; /* Cambiar a dorado cuando hace hover */
+  }

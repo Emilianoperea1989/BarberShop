@@ -3,10 +3,10 @@ import footer from './footer.css'
 const Footer = () => {
     return (
         <>
-            <div className='contenedorFooter'>
+            <div id='Footer' className='contenedorFooter'>
                 <div >
                     <h2 className='tituloFooter'>BARBERI</h2>
-                    <p>Far far away, behind the word mountains, far from the countries.</p>
+                    <p className='pFooter'>Far far away, behind the word mountains, far from the countries.</p>
                     <div>
   
                     </div>

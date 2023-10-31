@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
 
-      <div className='About'>
+      <div id='About' className='About'>
         <img  className="animate-image" src="https://images.unsplash.com/photo-1536520002442-39764a41e987?ixlib=rb-4.0.3&     ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVyc2hvcHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" />
         <div className='aboutTextoConainer animate-text'>   
           <span className='aboutTitle'>ABOUT BARBER</span>

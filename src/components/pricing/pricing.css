@@ -1,8 +1,9 @@
 .contenedorPrecio {
     margin: 60px;
     opacity: 0;
-    transform: scale(0.5); 
-    transition: opacity 0.5s, transform 1s; 
+    transform: scale(1); 
+    transition: opacity 2.5s, transform 1s; 
+    
   }
   
   .mostrar {
@@ -13,7 +14,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .contenedorTitulosPrecio>span {
@@ -30,21 +30,32 @@
     font-weight: 700;
     font-family: "Barlow Condensed", Arial, sans-serif;
 }
-
+@media screen and (max-width: 1366px) {
+    .contenedorTitulosPrecio>h2 {
+        font-size: 40px;
+    }.contenedorTitulosPrecio>span {
+        font-size: 15px;
+    }
+    
+}
 .contenedorPlanes {
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 90px;
     margin-top: 50px;
+    
 }
 .contenedorPlanes > div {
     border-radius: 90px;
-    transition: transform 0.3s; /* Agregamos una transición de 0.3 segundos para suavizar el efecto */
+    transition: transform 0.3s; 
+    box-shadow: 2px 1px 5px 2px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 2px 1px 5px 2px rgba(0,0,0,0.38);
+    -moz-box-shadow: 2px 1px 5px 2px rgba(0,0,0,0.38);
   }
   
   .contenedorPlanes > div:hover {
-    transform: scale(1.05); /* Al hacer hover, el elemento aumentará de tamaño al 110% */
+    transform: scale(1.01); /* Al hacer hover, el elemento aumentará de tamaño al 110% */
   }
 .listaTrabajos {
     font-size: 16px;
@@ -53,9 +64,23 @@
     color: rgb(0, 0, 0);
     padding-top: 10px;
     padding-bottom: 50px;
-    border: 4px solid black;
+    border: 2px solid #bf925b;
     border-radius: 0px 0px 90px 90px;
 }
+
+@media screen and (max-width: 1366px) {
+    .listaTrabajos {
+        font-size: 14px;
+    }
+    .contenedorPlanes > div {
+      width: 250px;
+ 
+      }.contenedorPlanes {
+        margin-top: 20px;
+    }
+}
+
+
 
 .listaTrabajos>li {
     display: flex;
@@ -70,6 +95,18 @@
     border-radius: 90px 90px 0px 0px;
 }
 
+
+@media screen and (max-width: 1366px) {
+    .imgPrecio {
+        height: 200px;
+        width: 250px; 
+    }
+    .listaTrabajos>li {
+        height: 30px;
+    }
+}
+
+
 .contenedorbtnReserva {
     width: 200px;
     margin: 2px auto;
@@ -81,18 +118,6 @@
     height: 170px;
     position: relative;
     padding: 8px;
-
-
-}
-
-
-.btnReserva>span {
-    font-size: 22px;
-    font-family: "Barlow Condensed", Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    top: 0px;
-    left: 30px;
-
 }
 
 .botonReserva {
@@ -125,4 +150,20 @@
 }
 .itemPrice{
     margin-right: 9px;
+}
+
+@media screen and (max-width: 1366px) {
+    .contenedorbtnReserva {
+        width: 150px;
+        height: 170px;
+    }.botonReserva {
+        font-size: 16px;
+        padding: 4px;
+    }.montoLista>span{
+        font-size: 14px;
+    }
+    .montoLista>p{
+        font-size: 18px;
+    }
+
 }

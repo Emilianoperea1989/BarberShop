@@ -3,7 +3,7 @@ import mainComponent from './mainComponent.css'
 const MainComponent = () => {
   return (
     <>
-      <div className='containerMain'>
+      <div id='Home' className='containerMain'>
         <div className='containerWelcome'>
           <div>
             <span className='welcome'>WELCOME TO BARBERSHOP</span>

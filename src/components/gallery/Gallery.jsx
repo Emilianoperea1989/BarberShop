@@ -29,7 +29,7 @@ const Gallery = () => {
 
     return (
         <>
-          <div className='contenedorGalleria'>
+          <div id='Gallery' className='contenedorGalleria'>
           <div className='contenedorGaleriaTitulo'>
                 <p>
                     GALLERY

@@ -9,6 +9,7 @@ import app from './app.css'
 import 'tailwindcss/tailwind.css'
 import Footer from './components/footer/Footer'
 
+
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
       <Gallery />
       <Pricing />
       <Footer/>
+
     </>
   )
 }

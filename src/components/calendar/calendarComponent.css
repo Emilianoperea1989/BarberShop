@@ -1,0 +1,110 @@
+.turno-container {
+    
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+
+  }
+
+  .calendar-container {
+    max-width: 400px;
+    margin: 0 auto;   
+  }
+  
+  .react-calendar {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.1;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #797676;
+    border-radius: 5px;
+    margin: 2px;
+   
+  }
+  
+  .time-selection {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.1;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+  }
+  p{
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+  }
+  
+  .time-selection label {
+    
+    margin-right: 10px;
+  }
+  .react-calendar__tile--active {
+    color: gray;
+  }
+  .react-calendar__tile:disabled {
+    background-color: #a3a3a3;
+}
+  
+  .selected-info {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    margin-top: 20px;
+  }
+  .react-calendar__navigation__prev2-button,
+  .react-calendar__navigation__next2-button {
+    display: none;
+  }
+.btn-reserva{  font-size: 20px;
+    background-color: #bf925b;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    margin-top: 6px;
+    padding: 8px 20px;
+    border: #000000 solid 1px;
+    border-radius: 6px;
+}
+@media screen and (max-width: 1366px) {
+  .turno-container {
+    margin-top: 10px;
+    font-size: 16px;
+  }   .react-calendar {
+    font-size: 16px;
+    
+  } 
+  .time-selection {
+    margin-top: 10px;
+    font-size: 16px;
+  }  p{
+    font-size: 16px;
+    color: #000000;
+  } .time-selection label {   
+    margin-right: 5px;
+  }  .selected-info {
+    font-size: 16px;
+    margin-top: 5px;
+  }.btn-reserva{  font-size: 20px;
+    background-color: #bf925b;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 100;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    margin-top: 6px;
+    padding: 2px 10px;
+    border: #000000 solid 1px;
+    border-radius: 6px;
+}
+}
